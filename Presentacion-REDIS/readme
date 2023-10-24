@@ -1,5 +1,5 @@
 1)primero vamos a crear un entorno virtual con  el comando: virtual venv / python -m venv venv
-
+nota: recuerda poner cd presentacion-redis
 2)despues vamos a crear un archivo llamado requirements.txt patra instalar las depedencias comando: pip3 install -r requirements.txt
 3)para correr el servidor vamos a utilizar el comando: uvicorn main:app --reload que es el nombre del archivo
 4)creamos un endpoind de prueba  en la carpeta routes y lo enrutamos en main.py ejecutamos al final con: http://localhost:8000/docs

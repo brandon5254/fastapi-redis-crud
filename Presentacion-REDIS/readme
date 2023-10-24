@@ -1,0 +1,9 @@
+1)primero vamos a crear un entorno virtual con  el comando: virtual venv / python -m venv venv
+
+2)despues vamos a crear un archivo llamado requirements.txt patra instalar las depedencias comando: pip3 install -r requirements.txt
+3)para correr el servidor vamos a utilizar el comando: uvicorn main:app --reload que es el nombre del archivo
+4)creamos un endpoind de prueba  en la carpeta routes y lo enrutamos en main.py ejecutamos al final con: http://localhost:8000/docs
+5)creamos una carpeta llamada redis_cliente y dentro de ella un archivo llamado conexion.py 
+6) vamos a utilizar el servicio upstash para poder crear una base de datos en la nube 
+7)para correr el servidor el comando : uvicorn main:app --reload --env-file=.env
+9)
